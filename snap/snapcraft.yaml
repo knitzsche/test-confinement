@@ -11,6 +11,9 @@ confinement: strict
 apps:
   bash:
     command: bash
+    #plugs: 
+    #  - home
+
 
 parts:
   bash:
